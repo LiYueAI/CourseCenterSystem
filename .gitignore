@@ -1,0 +1,38 @@
+.DS_Store
+Thumbs.db
+
+# Node / Next.js
+node_modules/
+.next/
+dist/
+build/
+coverage/
+*.tsbuildinfo
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+!.env*.example
+
+# Runtime data
+directus/uploads/
+tmp/
+temp/
+sql/backups/
+code_20260331.csv
+
+# Local tooling
+.claude/
+.idea/
+.vscode/
+
+# Backups and handoff notes
+*.bak
+*.bak.*
+HANDOFF.md
+HANDOFF.md.bak.*
